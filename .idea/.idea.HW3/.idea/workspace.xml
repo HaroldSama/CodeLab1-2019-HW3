@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d693bc1c-ae0a-43ff-9a41-0e1e9466dafd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HW3/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowerFlows/New Unity Project/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowerFlows/New Unity Project/.idea/.idea.New Unity Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowerFlows/New Unity Project/.idea/.idea.New Unity Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowerFlows/New Unity Project/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlowerFlows/New Unity Project/.idea/.idea.New Unity Project/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HW3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +14,10 @@
     <session id="1708086377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,39 +33,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="50" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="50" />
+          <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlowerFlows/New Unity Project/Assets/Script/Rotation.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              <folding>
-                <marker date="1550461896802" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550461896802" expanded="true" signature="117:344" ph="{...}" />
-                <marker date="1550461896802" expanded="true" signature="212:233" ph="{...}" />
-                <marker date="1550461896802" expanded="true" signature="291:342" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/FlowerFlows/New Unity Project/Assets/Script/Rotation.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,12 +65,12 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.ads@2.0.8/package.json" />
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/package.json" />
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json" />
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.package-manager-ui@2.0.3/package.json" />
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.purchasing@2.0.3/package.json" />
-      <path value="$PROJECT_DIR$/FlowerFlows/New Unity Project/Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.ads@2.0.8/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.analytics@3.2.2/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.package-manager-ui@2.0.3/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.purchasing@2.0.3/package.json" />
+      <path value="$PROJECT_DIR$/FlowerFlows/Library/PackageCache/com.unity.textmeshpro@1.3.0/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
@@ -110,7 +85,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="HW3" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,11 +126,20 @@
       <option name="presentableId" value="Default" />
       <updated>1550459863078</updated>
       <workItem from="1550459866172" duration="727000" />
+      <workItem from="1550471520979" duration="739000" />
     </task>
+    <task id="LOCAL-00001" summary="1. Initial Setup&#10;2. Basic Map and Mechanism Setup">
+      <created>1550471664832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550471664832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="727000" />
+    <option name="totallyTimeSpent" value="1466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -159,16 +153,9 @@
   <component name="ToolWindowManager">
     <frame x="-15" y="8" width="1620" height="920" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -176,21 +163,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Initial Setup&#10;2. Basic Map and Mechanism Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Initial Setup&#10;2. Basic Map and Mechanism Setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,14 +203,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FlowerFlows/New Unity Project/Assets/Script/Rotation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <marker date="1550461896802" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550461896802" expanded="true" signature="117:344" ph="{...}" />
-            <marker date="1550461896802" expanded="true" signature="212:233" ph="{...}" />
-            <marker date="1550461896802" expanded="true" signature="291:342" ph="{...}" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>

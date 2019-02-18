@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Touch : MonoBehaviour
 {
+    private GameObject target;
     public static bool Jumpable;
+    
     // Start is called before the first frame update
     void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
     {
         
     }
@@ -20,20 +16,35 @@ public class Touch : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //print("Touch");
-        if (Jumpable && other.CompareTag("Hand") && transform.Find("Player") != null)
+        if (Jumpable == false && other.CompareTag("Hand") && transform.Find("Player") != null)
         {
-            print("Jump");
-            transform.Find("Player").transform.SetParent(other.transform.parent, false);
-            Jumpable = false;
+            print("Ready");
+            target = other.gameObject;
+            Jumpable = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (Jumpable == false && other.CompareTag("Hand") && transform.Find("Player") != null)
+        if (other.CompareTag("Hand") && transform.Find("Player") != null)
         {
-            Jumpable = true;            
+            Jumpable = false;
+            target = null;
+            print("Expire");
         }
 
     }
+    
+    // Update is called once per frame
+    void Update()
+    {
+        if (Jumpable && Input.GetKeyDown(KeyCode.Space) && transform.Find("Player") != null)
+        {
+            transform.Find("Player").transform.SetParent(target.transform.parent, false);
+            Jumpable = false;
+            target = null;
+        }
+
+    }    
+    
 }
