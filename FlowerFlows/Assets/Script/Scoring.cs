@@ -15,7 +15,7 @@ public class Scoring : MonoBehaviour
         set
         {
             perfect = value;
-            perfectText.text = "Perfect: " + Scoring.Instance.Perfect;
+            perfectText.text = "Perfect: " + perfect;
         }
     }
 
@@ -28,7 +28,7 @@ public class Scoring : MonoBehaviour
         set
         {
             miss = value;
-            missText.text = "Miss: " + Scoring.Instance.Miss;
+            missText.text = "Miss: " + miss;
         }
     }
 
