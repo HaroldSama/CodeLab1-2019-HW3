@@ -162,6 +162,7 @@
           </e>
         </e>
         <e p="Script" t="Include">
+          <e p="LevelFinish.cs" t="Include" />
           <e p="Rotation.cs" t="Include" />
           <e p="Scoring.cs" t="Include" />
           <e p="Touch.cs" t="Include" />
