@@ -45,16 +45,25 @@ public class Touch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Jumpable && Input.GetKeyDown(KeyCode.Space) && transform.Find("Player") != null)
+        if (Input.GetKeyDown(KeyCode.Space) && transform.Find("Player") != null)
         {
-            Player = transform.Find("Player").gameObject;
-            Player.transform.parent = null;
-            //transform.Find("Player").transform.SetParent(target.transform.parent, false);
-            Sliding = true;
-            SlidingPrivate = true;
-            Jumpable = false;
-            target = null;
+            if (Jumpable)
+            {
+                Player = transform.Find("Player").gameObject;
+                Player.transform.parent = null;
+                //transform.Find("Player").transform.SetParent(target.transform.parent, false);
+                Sliding = true;
+                SlidingPrivate = true;
+                Jumpable = false;
+                target = null;
+                Scoring.Instance.Perfect++;
+            }
+            else
+            {
+                Scoring.Instance.Miss++;
+            }        
         }
+
 
         if (Sliding && SlidingPrivate)
         {
