@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: e606d8128e5176d4590e3d8281c9360f
+  productGUID: 8da86fcb03f93734b87c3402fda43b69
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Homework3
+  productName: New Unity Project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -617,9 +617,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: f3df4240-4e68-4639-9045-2c0723154ecc
+  cloudProjectId: c426ba46-10f7-485e-a5ea-b2b7e6087ef4
   framebufferDepthMemorylessMode: 0
-  projectName: Homework3
+  projectName: New Unity Project (7)
   organizationId: howerds4my
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
